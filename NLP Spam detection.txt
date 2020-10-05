@@ -1,0 +1,30 @@
+NLP Project Steps for Spam Detection.
+
+Step 1 - Convert Target variables ham to 0 and spam to 1
+
+Step 2 - Preprocess the text
+
+        - Convert to Lower Case
+        - Remove Special Characters
+        - Remove Stop Words
+        - Apply Lemmatization
+        - Join All the words to sentences
+Step 3 - Word Embeddings
+
+        - Use count vectorizer or tfidf vectorizer to convert words in numbers
+Step 4 - Do Upsampling - (Smote, resample etc.)
+
+Step 5 - Train Test Split
+
+Step 6 - Apply Classification Models (Naive Bayes,Logistic, Decision Tree or Ensembles, SVM etc.)
+
+Step 7 - Model Evaluation - Metrics (Confusion Matrix, Classification Report)
+
+Step 8 - Testing with new string
+
+        - Take input of new string
+        - Undergo with step2 same preprocessing as train data
+        - Apply tfidf.transform or cv.transform for input
+        - Then model.predict
+        - Evalute your model using predictions
+Avinash Gunda
